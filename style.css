@@ -1,3 +1,57 @@
-h1{
-    color: red;
+                            /* 1st section */
+
+body{
+    margin: 0;
 }
+h1{
+    font-size: 60px;
+}
+
+a{text-decoration: none;}
+
+.txt_clr{
+    color: blue;
+}
+
+.btn{
+    margin-top: 8%;
+    padding: 8px;
+    border: 2px solid red;
+    width: 32%;
+    text-align: center;
+    background-color: blue;
+    border-radius: 5px;
+    transition: width 1s;
+}
+.btn:hover{
+    width: 36%;
+    background-color: crimson;
+}
+
+.flexible{
+    display: flex;
+    background: url(images/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.banner_sec{
+        width: 50%;
+        margin-left: 10%;
+
+}
+.banner_sec img{
+    width: 80%;
+    margin-top: 17%;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@ */
+
+                                    /* 2nd section */
+
+
+.header h1{
+    font-size: 43px;
+    text-align: center;
+} 
+
