@@ -2,35 +2,39 @@
 
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 a{text-decoration: none;}
+.banner_sec h1{
+    border-left: 6px solid rgba(255, 81, 0, 0.582);
+    border-radius: 6px;
+    padding-left: 2%;
+}
 
 .txt_clr{
-    color: blue;
+    color: rgba(180, 20, 220, 0.39);
 }
 
 .btn{
-    margin-top: 8%;
+    margin-top: 5%;
     padding: 8px;
-    border: 2px solid red;
     width: 32%;
     text-align: center;
-    background-color: blue;
+    background-color: rgba(220, 20, 60, 0.247);
     border-radius: 5px;
     transition: width 1s;
 }
 .btn:hover{
     width: 36%;
-    background-color: crimson;
+    background-color: rgba(220, 20, 103, 0.397);
 }
 
 .flexible{
     display: flex;
-    background: url(images/shape-2.png);
     background-repeat: no-repeat;
     background-position: bottom;
 
@@ -49,9 +53,83 @@ a{text-decoration: none;}
 
                                     /* 2nd section */
 
-
+.header
+{
+    margin-top: 60px;
+}
 .header h1{
-    font-size: 43px;
+    font-size: 30px;
     text-align: center;
 } 
 
+.card{
+    width: 30%;
+    margin-left: 5.5%;
+    
+    background-color: rgba(220, 20, 60, 0.247);
+    border-radius: 12px;
+    padding: 3%;
+}
+
+.card img{
+    width: 40%;
+    
+}
+.card p{
+    font-weight: lighter;
+    font-size: smaller;
+    margin-top: 0px;
+}
+.container{
+    padding: 5%;
+}
+#yellow_bg{
+    background-color: rgba(255, 255, 0, 0.37);
+}
+#orange_bg{
+    background-color: rgba(255, 174, 0, 0.418);
+
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+                                    /* 3rd section */
+
+.third_sec{
+    margin-top: 5%;
+}
+.third_sec_left{
+    width: 35%;
+    margin-left: 11%;
+
+}
+.third_sec_left img{
+    width:100%;
+}
+
+.third_sec_right{
+    width: 60%;
+    padding: 20px 20px;
+ 
+}
+
+                                /* 4th section */
+
+.forth_sec{
+    margin-top: 10%;
+}
+.forth_sec_left{
+    width: 60%;
+    margin-left: 11%;
+
+}
+.forth_sec_right img{
+    width:100%;
+}
+
+.forth_sec_right{
+    width: 35%;
+    padding: 20px 20px;
+ 
+}
